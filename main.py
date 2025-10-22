@@ -19,7 +19,7 @@ NUM_EPOCHS = 5
 
 transform = transforms.Compose([
     transforms.ToTensor(),
-    transforms.Normalize((0.5, 0.5), (0.5, 0.5))
+    transforms.Normalize((0.5,), (0.5,))
 ])
 
 # Baixa o dataset de TREINO
